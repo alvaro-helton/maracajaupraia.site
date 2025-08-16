@@ -1,0 +1,198 @@
+body{/*Definições aplicadas a todo ocorpo do documento*/
+    background-color: #373d3b;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    margin-top: 0px;
+    letter-spacing: 1px;
+       
+}
+.header{/*Definições aplicadas à classe .header, que inclui a barra do topo, o título da página e o menu*/
+    
+    background-color:#373d3b;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+main {/*Definições aplicadas ao conteúdo principal, abaixo do header*/
+      padding-top: 80px; /* importante para evitar que o conteúdo fique por baixo do header */
+    }
+h3{
+    text-align:center;
+    font-size:xx-large;
+}
+        
+h1{
+    margin-right: 15px;
+    color: white;
+    background-color: #d44902;
+    text-align:center;
+    padding:12px;
+    letter-spacing: 10px;
+    font-size: 3em 100%;  
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: none;
+    padding: 0px;
+    margin-top: 8px;
+    font-size:small;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}              
+
+p{
+    color: white;
+    font-size: medium;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+}
+.presentation{
+    text-align: justify;
+    background-color: #555555;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+nav{
+    text-align:center;
+    
+   
+}
+nav li{
+    display: inline;
+    text-align: center;
+    font-weight: none;
+    border: none; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    letter-spacing: 1px;
+    font-size: small;
+    transition: color 0.3s;
+
+}
+nav a:hover{
+    color: #d44902;
+    text-decoration: none;
+       
+}
+nav a.active{
+    color:#d44902;  
+}
+
+.picture{
+    width: 34%;
+    height: flex;
+    background-color: #555555;
+    border-radius: 0px;
+    margin-left: 1px;
+    float: right; 
+}
+
+
+
+
+
+.tituloEstablishment{/*Definições aplicadas à Div título da página Restaurantes*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.establishment{/*Div container da página Restaurantes*/
+    width: 100%;
+    height: 1000px;   
+    background-color: #555555;   
+}
+
+.listEstablishment{/*Definições aplicadas à Div lista de Restaurantes*/
+    float: left; 
+    width: 50%;
+    /*background-color: #555555;*/
+}
+ul{/*Cor da fonte da lista de restaurantes*/
+    color: white;          
+} 
+ul li{
+    padding: 2px;   
+}
+ul a{/*Configurações dos links da lista de restaurantes*/
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurantes ao passar o mouse*/
+    color: #d44902;
+}
+
+
+/*........................................CONFIGURAÇÕES DA PÁGINA RESTAURANTES..............................................*/
+
+
+.description{/*Divisória container reservada para as descrições dos restaurantes selecionados. Contém uma imagem e um texto*/
+    float: right; /*Esta div fica à direita da div .listRestaurants*/
+    width: 50%;
+    padding-top: 25px;
+    background-image: url("img/");
+    /*display: flex;*/
+     
+}
+
+.imgEstab{/*Divisória filho dentro de .description para a imagem do estabelecimento selecionado*/
+    float: left;
+   
+}
+#estabSelected{/* Id da imagem dentro de .imgEstab*/
+    /*padding-left: 9px;
+    padding-right: 9px;
+    /*width: 50%;*/
+    float: left;
+    background-color: azure;
+    max-width: 200px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.textRest{/*Divisória filho dentro de .description para o texto do restaurante selecionado*/
+    float: left;
+    background-color: #373d3b;
+    margin-right: 15px;
+    margin-top: 15px; 
+    width: 98%;
+}
+#textRest{
+    text-align: justify;
+    
+   
+   
+}
+
+
+/*........................................CONFIGURAÇÕES DA PÁGINA HISTÓRIA..............................................*/
+
+.text{
+    width: 65%;
+    height: flex;
+    background-color: #555555;
+    padding-top:4px;
+    border-radius: 0px;
+    float: left;       
+} 
+
+#maceio{/*Imagem1 da página História*/
+    padding-bottom: 4px;
+    width: 100%;
+}
+#maracaja{/*Imagem2 da página História*/
+    width: 100%;
+}
+#textHist{
+    padding: 10px;
+}
+
+
+
+
+
