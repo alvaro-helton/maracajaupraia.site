@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maracajaupraia</title>
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon.ico">
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/hospedagens.js"></script>
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <div class="header">
+        <header>       
+                <nav>
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a id="menuHistoria" href="historia.html" onclick="ativarItem(this)">HISTÓRIA</a></li>
+                        <li><a  id="menuRestaurantes" href="restaurantes.html" onclick="ativarItem(this)">RESTAURANTES</a> </li>                   
+                        <li><a  id="menuHospedagens" href="hospedagens.html" onclick="ativarItem(this)"  style="color:#d44902">HOSPEDAGENS</a></li>
+                        <li><a  id="menuoQueFazer" href="oQueFazer.html" onclick="ativarItem(this)">O QUE FAZER</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </div>
+    <main>
+        <div class="establishment">
+            <div class="tituloEstablishment">
+                <h1 style="font-size: small; margin-left: 15px;">HOTÉIS, POUSADAS, CHALÉS, CAMPING, AIR-BNB</h1>
+            </div>
+            <div class="listEstablishment">
+                <ul>
+                    <li><a id="casafeliz" href="#" onclick="casafeliz()">Casa Feliz</a></li>
+                    <li><a id="cabanas" href="#" onclick="cabanas()">Cabanas Caraúbas</a></li>
+                    <li><a id="enseada" href="#" onclick="enseada()">Hotel Enseada Maracajaú</a></li>
+                    <li><a id="parracho" href="#" onclick="parracho()">Pousada Parracho</a></li>
+                    <li><a id="pontadosaneis" href="#" onclick="pontadosaneis()">Pousada Ponta dos Anéis</a></li>
+                    <li><a id="caseira" href="#" onclick="caseira()">Pousada Caseira</a></li>
+                    <li><a id="paraisoI" href="#" onclick="paraiso()">Paraíso Maracajaú</a></li>
+                    <li><a id="quintas" href="#" onclick="villa()">Villa Mar-a-Villa</a></li>
+                    <li><a id="oasis" href="#" onclick="oasis()">KiteSurf Oásis Maracajaú</a></li>
+                    <li><a id="aldeia" href="#" onclick="aldeia()">Aldeia Camping</a></li>
+                    <li><a id="bikibu" href="#" onclick="bikibu()">Pousada Bikibu</a></li>
+                    <li><a id="corescorais" href="#" onclick="cores()">Cores dos Corais</a></li>
+                </ul>
+            </div>
+            <div class="description">
+                <div class="imgEstab">
+                <img id="estabSelected" src="img/pousadas/hospedagens.png" alt="Estabelecimento selecionado">
+                </div>
+                <div class="textRest">
+                <p id="textRest" >Selecione um estabelecimento na lista à esquerda para saber mais
+                </p>
+                </div>
+            </div>  
+        </main>           
+    </body>
+</html>
+<!-- <div style="clear: both"></div>-->

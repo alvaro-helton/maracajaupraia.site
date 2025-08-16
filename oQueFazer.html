@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maracajaupraia</title>
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon.ico">
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/oQueFazer.js"></script>
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <div class="header">
+        <header>       
+                <nav>
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a id="menuHistoria" href="historia.html" onclick="ativarItem(this)">HISTÓRIA</a></li>
+                        <li><a  id="menuRestaurantes" href="restaurantes.html" onclick="ativarItem(this)">RESTAURANTES</a> </li>                   
+                        <li><a  id="menuHospedagens" href="hospedagens.html" onclick="ativarItem(this)">HOSPEDAGENS</a></li>
+                        <li><a  id="menuoQueFazer" href="oQueFazer.html" onclick="ativarItem(this)" style="color:#d44902">O QUE FAZER</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </div>
+    <main>
+        <div class="establishment">
+            <div class="tituloEstablishment">
+                <h1 style="font-size: small; margin-left: 15px;">O QUE FAZER</h1>
+            </div>
+            <div class="listEstablishment">
+                <ul>
+                    <li><a id="mergulho" href="#" onclick="mergulho()">Mergulho nos Parrachos</a></li>
+                    <li><a id="quadriciclo" href="#" onclick="quadriciclo()">Passeio de quadriciclo</a></li>
+                    <li><a id="buggy" href="#" onclick="buggy()">Passeio de buggy</a></li>
+                    <li><a id="trilha" href="#" onclick="trilha()">Trilha ecológica</a></li>
+                    <li><a id="canoa" href="#" onclick="canoa()">Canoas Polinésias</a></li>
+                    <li><a id="cavalo" href="#" onclick="cavalo()">Passeio a cavalo</a></li>
+                    <li><a id="kite" href="#" onclick="kite()">Kite Surf</a></li>
+                    <li><a id="lagoas" href="#" onclick="lagoas()">Banho de lagoa</a></li>
+                    <li><a id="porDoSol" href="#" onclick="porDoSol()">Pôr do sol nas dunas</a></li>
+                </ul>
+            </div>
+            <div class="description">
+                <div class="imgEstab">
+                <img id="estabSelected" src="img/oQueFazer/oQueFazer.webp" alt="Atividade selecionada">
+                </div>
+                <div class="textRest">
+                <p id="textRest" >Selecione uma atividade na lista à esquerda para saber mais
+                </p>
+                </div>
+            </div>  
+        </main>           
+    </body>
+</html>
+<!-- <div style="clear: both"></div>-->
