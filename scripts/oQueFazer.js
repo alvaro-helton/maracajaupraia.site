@@ -1,4 +1,3 @@
- 
 function mergulho(){
     document.getElementById("estabSelected").src = "img/oQueFazer/mergulho.jpg";
     document.getElementById("textRest").innerHTML= 
