@@ -1,4 +1,3 @@
- 
 function aneis(){
     document.getElementById("estabSelected").src = "img/restaurantes/aneis.png";
     document.getElementById("textRest").innerHTML= 
@@ -23,7 +22,7 @@ function parrachos(){
     Fonte: reservasrn.parrachos.com.br`
 }
 function caribe(){document.getElementById("estabSelected").src = "img/restaurantes/caribe.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function portal(){document.getElementById("estabSelected").src = "img/restaurantes/portal.png";
     document.getElementById("textRest").innerHTML= 
@@ -34,50 +33,50 @@ Hoje, a principal atividade econômica do município é o turismo. E é lá onde
 Fonte: https://blog.portaldemaracajau.com.br/blogs/o-portal-de-maracajau-tem-historia/`
 }
 function paje(){document.getElementById("estabSelected").src = "img/restaurantes/paje.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= `Descrição do estabelecimento`
 }
 function brisa(){document.getElementById("estabSelected").src = "img/restaurantes/brisa.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function esquina(){document.getElementById("estabSelected").src = "img/restaurantes/esquina.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function guedes(){document.getElementById("estabSelected").src = "img/restaurantes/guedes.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= `Descrição do estabelecimento  `
 }
 function dunas(){document.getElementById("estabSelected").src = "img/restaurantes/dunas.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function ponto(){document.getElementById("estabSelected").src = "img/restaurantes/ponto.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function tereza(){document.getElementById("estabSelected").src = "img/restaurantes/tereza.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function cacua(){document.getElementById("estabSelected").src = "img/restaurantes/cacua.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function bikibu(){document.getElementById("estabSelected").src = "img/restaurantes/bikibu.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function buji(){document.getElementById("estabSelected").src = "img/restaurantes/buji.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function bistro(){document.getElementById("estabSelected").src = "img/restaurantes/bistro.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function sabor(){document.getElementById("estabSelected").src = "img/restaurantes/sabor.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function frutos(){document.getElementById("estabSelected").src = "img/restaurantes/frutos.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function mana(){document.getElementById("estabSelected").src = "img/restaurantes/mana.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function siri(){document.getElementById("estabSelected").src = "img/restaurantes/siri.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
 function palhoca(){document.getElementById("estabSelected").src = "img/restaurantes/palhoca.png";
-    document.getElementById("textRest").innerHTML= `  `
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
