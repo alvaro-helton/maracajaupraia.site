@@ -79,16 +79,6 @@ O gato maracajá está, pois, diretamente relacionado ao nome da comunidade, cab
 
 <img id="maceio" src="img/rios2.jpg">
 <img  id="maracaja" src="img/maracaja.jpg">
-
-
-
-
-
-
-
-
-
-
 </div>`
 
 }
