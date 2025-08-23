@@ -58,8 +58,7 @@ p{
 
 nav{
     text-align:center;
-    
-   
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.6); 
 }
 nav li{
     display: inline;
@@ -205,6 +204,7 @@ footer{
     padding-top:4px;
     
 }
+
 
 
 
