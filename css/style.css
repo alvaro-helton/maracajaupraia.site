@@ -200,3 +200,19 @@ footer{
     letter-spacing: 1px;
     font-size: 1em 100%;  
 }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* proporção 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 800px; /* limita a largura máxima no desktop */
+  margin: 0 auto;   /* centraliza */
+  background: #000; /* opcional */
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
