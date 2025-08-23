@@ -178,6 +178,7 @@ ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurant
     width: 400px;
     display:block;
     margin: auto;
+    max-width: 100%;
 }
 #maracaja{/*Imagem2 da página História*/
    padding-bottom: 8px;
@@ -185,6 +186,7 @@ ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurant
     width: 400px;
     display:block;
     margin: auto;
+    max-width: 100%;
     
 }
 
@@ -202,6 +204,7 @@ footer{
     padding-top:4px;
     
 }
+
 
 
 
