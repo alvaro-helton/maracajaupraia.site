@@ -175,7 +175,7 @@ ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurant
 #maceio{/*Imagem1 da página História*/
     padding-bottom: 8px;
     padding-top:  20px;
-    width: 400px;
+    width: 350px;
     display:block;
     margin: auto;
     max-width: 100%;
@@ -183,7 +183,7 @@ ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurant
 #maracaja{/*Imagem2 da página História*/
    padding-bottom: 8px;
     padding-top:  20px;
-    width: 400px;
+    width: 350px;
     display:block;
     margin: auto;
     max-width: 100%;
@@ -204,6 +204,7 @@ footer{
     padding-top:4px;
     
 }
+
 
 
 
