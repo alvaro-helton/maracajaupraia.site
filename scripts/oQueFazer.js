@@ -1,7 +1,8 @@
+ 
 function mergulho(){
     document.getElementById("estabSelected").src = "img/oQueFazer/mergulho.jpg";
     document.getElementById("textRest").innerHTML= 
-        `A cerca de 7 km da costa, em pleno litoral norte do Rio Grande do Norte, 
+        `Distante aproximadamente 7 km da costa, em pleno litoral norte do Rio Grande do Norte, 
         os Parrachos de Maracajaú se revelam como um imenso aquário natural. 
         Durante a maré baixa, as águas claras e mornas deixam à mostra recifes de coral 
         que abrigam peixes coloridos e outras formas de vida marinha, formando um cenário perfeito 
@@ -23,7 +24,7 @@ function quadriciclo(){
 function buggy(){
     document.getElementById("estabSelected").src = "img/oQueFazer/buggy.png";
     document.getElementById("textRest").innerHTML= 
-        `O passeio de buggy em Maracajaú é uma das formas mais emocionantes de explorar as belezas do litoral potiguar. 
+        `Passear de buggy em Maracajaú é uma das formas mais emocionantes de explorar as belezas do litoral potiguar. 
         Guiado por motoristas experientes, o roteiro leva os visitantes por dunas móveis, falésias coloridas e praias quase intocadas, 
         sempre com aquela mistura de emoção e contemplação. Pelo caminho, é comum fazer paradas em lagoas de águas doces, 
         ideais para um mergulho refrescante, além de mirantes naturais que revelam vistas panorâmicas do mar azul-turquesa. 
@@ -33,7 +34,7 @@ function buggy(){
 function trilha(){
     document.getElementById("estabSelected").src = "img/oQueFazer/trilha.jpg";
     document.getElementById("textRest").innerHTML= 
-        `A trilha ecológica em Maracajaú é um convite ao contato direto com a natureza. 
+        `Trilha ecológica em Maracajaú é um convite ao contato direto com a natureza. 
         O percurso atravessa dunas, mata nativa e lagoas, revelando a fauna e flora locais. 
         Com a orientação de guias, os visitantes aprendem sobre a importância da preservação e fazem paradas em mirantes ou lagoas refrescantes. 
         Uma experiência tranquila e enriquecedora, perfeita para quem busca conexão com o ambiente natural.`;

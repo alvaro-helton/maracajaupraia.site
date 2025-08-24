@@ -23,8 +23,9 @@ h1{
     text-align:center;
     padding:12px;
     letter-spacing: 10px;
-    font-size: small; margin-left: 15px;
+    font-size: small; margin-left: 15px;  
     text-shadow: 4px 4px 7px rgba(0,0,0,0.6); 
+    border-radius: 2px;
 }
 h2{
     text-align: center;
@@ -47,6 +48,7 @@ p{
     text-align: justify;
     padding: 5px;
     margin: 5px 20px 5px 20px;
+    hyphens:auto;
 }
 .presentation{
     text-align: justify;
@@ -58,7 +60,9 @@ p{
 
 nav{
     text-align:center;
-    text-shadow: 4px 4px 7px rgba(0,0,0,0.6); 
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
+    
+   
 }
 nav li{
     display: inline;
@@ -99,33 +103,38 @@ nav a.active{
 .tituloEstablishment{/*Div título da página Restaurantes*/
     padding: 4px;
     background-color: none;
+   
 }
 .establishment{/*Div container da página Restaurantes*/
     width: 100%;
-    height: 1300px;   
-    background-color: #555555;   
+    height:auto;   
+    background-color: #555555;  
+    padding-bottom: 400px; 
 }
 
 .listEstablishment{/*Div lista de Restaurantes*/
     float: left; 
     background-color:#e9b149;
     margin:20px;
-    max-width: 42%;
+    max-width: 48%;
     border-radius: 10px;
 }
 
 .imgEstab{/*div imagem restaurante selecionado*/
-    float: right;
-    max-width:40%;
-    margin: 20px 29px 20px 0px;
+    float: left;
+    max-width:30%;
+    margin: 22px 29px 20px 0px;
     background-color: none;
+    position:static;
+    border-radius: 10px;
 }
 
 #estabSelected{/* Id imagem dentro de .imgEstab*/
     
     background-color: azure;
-    max-width: 192px;
+    max-width: 80%;
     border-radius: 100%;
+    width: auto;
 }
 .textRest{/*Div texto do restaurante selecionado*/
 
@@ -134,9 +143,9 @@ nav a.active{
     margin: 15px;
     display: block;
     border-radius: 10px;
+    max-height:100%;
 }
 #textRest{/*id do texto sobre o restaurante selecionado*/
-    /*text-align: left;*/ 
     color: #373d3b;    
 }
 
@@ -145,8 +154,7 @@ ul{/*Cor da fonte da lista de restaurantes*/
     list-style-type:none;         
 } 
 ul li{
-    padding: 2px;
-    margin-left: none;
+   padding-right: 6px;
   
 }
 ul a{/*Configurações dos links da lista de restaurantes*/
@@ -170,8 +178,6 @@ ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurant
     float: left;       
 } 
 
-
-
 #maceio{/*Imagem1 da página História*/
     padding-bottom: 8px;
     padding-top:  20px;
@@ -183,33 +189,16 @@ ul a:hover{/*Configurações de mudança de cor dos links da lista de restaurant
 #maracaja{/*Imagem2 da página História*/
    padding-bottom: 8px;
     padding-top:  20px;
-    width: 350px;
+   width: 350px;
     display:block;
     margin: auto;
     max-width: 100%;
     
 }
-
 footer{
     color: white;
     background-color: #d44902;
     letter-spacing: 1px;
     font-size: 1em 100%;
-    margin: 8px 0px 4px 0px;  
+    border-radius: 2px;  
 }
-
-
-.content{
-    background-color: #555555;
-    padding-top:4px;
-    
-}
-
-
-
-
-
-
-
-
-

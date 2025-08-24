@@ -58,3 +58,13 @@ function cores(){
     document.getElementById("estabSelected").src = "img/pousadas/cores.png";
     document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
 }
+
+function corais(){
+    document.getElementById("estabSelected").src = "img/pousadas/corais.png";
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+
+}
+function maracajau(){
+    document.getElementById("estabSelected").src = "img/pousadas/maracajau.png";
+    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+}

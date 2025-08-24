@@ -1,3 +1,4 @@
+ 
 function aneis(){
     document.getElementById("estabSelected").src = "img/restaurantes/aneis.png";
     document.getElementById("textRest").innerHTML= 
@@ -13,7 +14,7 @@ function aneis(){
 function parrachos(){
     document.getElementById("estabSelected").src = "img/restaurantes/parrachos.png";
     document.getElementById("textRest").innerHTML= 
-    `É um complexo de lazer beira-mar com diversos atrativos como piscinas, 
+    ` Éum complexo de lazer beira-mar com diversos atrativos como piscinas, 
     áreas exclusivas para day use, passeios de quadriciclo, catamarã, mergulho livre, 
     mergulho com cilindro e muito mais. Tudo isso acompanhado de um excelente restaurante 
     (o mais bem avaliado da região segundo o TripAdvisor). Aqui firmamos nosso compromisso 
@@ -26,7 +27,7 @@ function caribe(){document.getElementById("estabSelected").src = "img/restaurant
 }
 function portal(){document.getElementById("estabSelected").src = "img/restaurantes/portal.png";
     document.getElementById("textRest").innerHTML= 
-    `O Portal de Maracajaú é uma empresa especializada em mergulhos. Como o próprio nome já diz, 
+    `Portal de Maracajaú é uma empresa especializada em mergulhos. Como o próprio nome já diz, 
     ela fica localizada em Maracajaú, litoral norte potiguar, e atrai turistas durante todo o ano, independente da estação.
 A região é cercada por dunas, coqueirais e lagoas. Trata-se de uma pequena vila de pescadores com aproximadamente 2.000 habitantes. 
 Hoje, a principal atividade econômica do município é o turismo. E é lá onde tudo acontece! 
