@@ -8,7 +8,8 @@ function aneis(){
         do balanço das folhas e das ondas do mar. A estrutura conta com banheiros, duchas, lounges de pallets, 
         ombrelones, esteiras para descanso e um bar que serve deliciosos petiscos e bebidas geladas.
         Dispõe de serviços de Wi-Fi e belíssimos passeios como o de lancha aos parrachos, mergulho de cilindro 
-        e quadriciclo pelas praias, dunas e lagoas da região. Fonte: maracajaudiver.com.br`;
+        e quadriciclo pelas praias, dunas e lagoas da região. 
+        Fonte: <a target="_blank" href="maracajaudiver.com.br">maracajaudiver.com.br</a>`;
 }
 
 function parrachos(){
@@ -20,7 +21,7 @@ function parrachos(){
     (o mais bem avaliado da região segundo o TripAdvisor). Aqui firmamos nosso compromisso 
     em oferecer serviços de turismo de aventura e ecológico com excelência, fazendo da experiência 
     dos nossos clientes, um momento especial de contato com a natureza e de despertar para uma consciência ecológica. 
-    Fonte: reservasrn.parrachos.com.br`
+    Fonte: <a target="_blank" href="https://reservasrn.parrachos.com.br/">reservasrn.parrachos.com.br</a>`
 }
 function caribe(){document.getElementById("estabSelected").src = "img/restaurantes/caribe.png";
     document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
@@ -31,7 +32,9 @@ function portal(){document.getElementById("estabSelected").src = "img/restaurant
     ela fica localizada em Maracajaú, litoral norte potiguar, e atrai turistas durante todo o ano, independente da estação.
 A região é cercada por dunas, coqueirais e lagoas. Trata-se de uma pequena vila de pescadores com aproximadamente 2.000 habitantes. 
 Hoje, a principal atividade econômica do município é o turismo. E é lá onde tudo acontece! 
-Fonte: https://blog.portaldemaracajau.com.br/blogs/o-portal-de-maracajau-tem-historia/`
+
+Fonte: <a target="_blank" href="https://blog.portaldemaracajau.com.br/blogs/o-portal-de-maracajau-tem-historia">blog.portaldemaracajau.com.br</a>`
+
 }
 function paje(){document.getElementById("estabSelected").src = "img/restaurantes/paje.png";
     document.getElementById("textRest").innerHTML= `Descrição do estabelecimento`

@@ -10,7 +10,18 @@ function cabanas(){
 }
 function enseada(){
     document.getElementById("estabSelected").src = "img/pousadas/enseada.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("textRest").innerHTML= 
+    
+    ` No Hotel Enseada Maracajaú você conta com conforto de Hotel e aconchego de Pousada, a apenas 150 metros da beira-mar.
+    A estrutura voltada para o relaxamento, descontração e romantismo, dispõe de estacionamento fechado, 
+    Café da Manhã com opções diversificadas e frescas, Wi-Fi em todo Hotel, recepção 24 horas, segurança, e equipe treinada.
+    Além de tudo isso, ainda dispomos de um romântico Bistrô com saborosos pratos elaborados por nosso Chef.
+    Para pessoas com necessidades especiais, dispomos de chalé adaptado.
+    Estamos preparados para lhe sugerir os melhores passeios e dicas da região.
+    Venha desfrutar de dias maravilhosos em suas Férias, Lua de Mel, Feriados ou Finais de Semana em Maracajaú!
+    Área de Lazer: 2 Piscinas, sendo uma Adulto e uma Infantil; Bar Molhado com deliciosos aperitivos e bebidas;
+    Amplo Jardim com belas orquídeas e diversas flores nativas; “Cantinho dos Estressados”: área com redes para relaxar;
+    Espaço para Massagem; Cabana de Eventos. Fonte: <a target="_blank" href="https://enseadamaracajau.com.br/hotel/">enseadamaracajau.com.br</a>`
 
 }
 function parracho(){
