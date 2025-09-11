@@ -1,18 +1,31 @@
 function casafeliz(){
-    document.getElementById("estabSelected").src = "img/pousadas/casafeliz.png";
-    document.getElementById("textRest").innerHTML= `Descrição do estabelecimento`
+     document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/casafeliz.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function cabanas(){
-    document.getElementById("estabSelected").src = "img/pousadas/cabanas.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+     document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/cabanas.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function enseada(){
-    document.getElementById("estabSelected").src = "img/pousadas/enseada.png";
-    document.getElementById("textRest").innerHTML= 
-    
-    ` No Hotel Enseada Maracajaú você conta com conforto de Hotel e aconchego de Pousada, a apenas 150 metros da beira-mar.
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/enseada.png"> 
+        
+        <p id="description">
+    No Hotel Enseada Maracajaú você conta com conforto de Hotel e aconchego de Pousada, a apenas 150 metros da beira-mar.
     A estrutura voltada para o relaxamento, descontração e romantismo, dispõe de estacionamento fechado, 
     Café da Manhã com opções diversificadas e frescas, Wi-Fi em todo Hotel, recepção 24 horas, segurança, e equipe treinada.
     Além de tudo isso, ainda dispomos de um romântico Bistrô com saborosos pratos elaborados por nosso Chef.
@@ -21,40 +34,69 @@ function enseada(){
     Venha desfrutar de dias maravilhosos em suas Férias, Lua de Mel, Feriados ou Finais de Semana em Maracajaú!
     Área de Lazer: 2 Piscinas, sendo uma Adulto e uma Infantil; Bar Molhado com deliciosos aperitivos e bebidas;
     Amplo Jardim com belas orquídeas e diversas flores nativas; “Cantinho dos Estressados”: área com redes para relaxar;
-    Espaço para Massagem; Cabana de Eventos. Fonte: <a target="_blank" href="https://enseadamaracajau.com.br/hotel/">enseadamaracajau.com.br</a>`
+    Espaço para Massagem; Cabana de Eventos. Fonte: <a target="_blank" href="https://enseadamaracajau.com.br/hotel/">enseadamaracajau.com.br</a>
+     </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function parracho(){
-    document.getElementById("estabSelected").src = "img/pousadas/parracho.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/parracho.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function pontadosaneis(){
-    document.getElementById("estabSelected").src = "img/pousadas/pontadosaneis.png";
-    document.getElementById("textRest").innerHTML= 
-    ` Na Pousada Ponta dos Anéis você se sente em casa, desfrutando a melhor localização da Praia de Maracajaú. 
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/pontadosaneis.png"> 
+        
+        <p id="description">
+    Na Pousada Ponta dos Anéis você se sente em casa, desfrutando a melhor localização da Praia de Maracajaú. 
     Localizada na beira-mar, da famosa Praia de Maracajaú, ao lado do ponto de partida para os "Parrachos de Maracajaú". 
     Com uma visual impressionante, oferecemos aos nossos hóspedes o que há de melhor para seu lazer, com muita descontração 
     e conforto. O Mirante com uma grande piscina, para adultos e crianças, o restaurante com deliciosos pratos, preparados na hora. 
     Uma grande área verde na frente dos apartamentos. Aguardamos vocês de braços abertos.
-    Fonte: <a target="_blank" href="http://pousadapontadosaneis.com.br/">pousadapontadosaneis.com.br</a>`
+    Fonte: <a target="_blank" href="http://pousadapontadosaneis.com.br/">pousadapontadosaneis.com.br</a>
+     </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function caseira(){
-    document.getElementById("estabSelected").src = "img/pousadas/caseira.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/caseira.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function paraiso(){
-    document.getElementById("estabSelected").src = "img/pousadas/paraiso.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/paraiso.png"> 
+        
+        <p id="description">
+         </p>     
 
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 }
+//================================================================================//=================================================================
 
 function villa(){
-    document.getElementById("estabSelected").src = "img/pousadas/villa.png";
-    document.getElementById("textRest").innerHTML= 
-    ` Imagine um santuário onde a sofisticação se encontra com a beleza natural indomável. 
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/villa.png"> 
+        
+        <p id="description">
+    Imagine um santuário onde a sofisticação se encontra com a beleza natural indomável. 
     A Villa Mar-a-Villa oferece um refúgio exclusivo, um mundo à parte, mas com fácil acesso. 
     A apenas uma hora da vibrante energia de Natal, capital do Rio Grande do Norte, 
     e a apenas 45 minutos do Aeroporto Internacional, a Villa Mar-a-Villa proporciona um refúgio perfeito.
@@ -68,13 +110,20 @@ function villa(){
     por um jardim exuberante e pitoresco, repleto de flores nativas e coqueiros ondulantes.
     A Villa Mar-a-Villa é mais do que um destino; é um convite para redescobrir a tranquilidade, 
     abraçar o luxo e criar memórias inesquecíveis em um mundo de beleza incomparável.
-    Fonte: <a target="_blank" href="https://www.villa-mar-a-villa.com/about-villa-mar-a-villa">villa-mar-a-villa.com</a> `
+    Fonte: <a target="_blank" href="https://www.villa-mar-a-villa.com/about-villa-mar-a-villa">villa-mar-a-villa.com</a>
+     </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function oasis(){
-    document.getElementById("estabSelected").src = "img/pousadas/oasis.png";
-    document.getElementById("textRest").innerHTML= 
-    ` Estamos no litoral norte do Brasil, a 70km do aeroporto de Natal em um local tranquilo: Vila de pescadores Maracajaú.
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/oasis.png"> 
+        
+        <p id="description">
+        
+    Estamos no litoral norte do Brasil, a 70km do aeroporto de Natal em um local tranquilo: Vila de pescadores Maracajaú.
     Nas proximidades existem duas lagoas grandes e rasas que são muito divertidas para iniciantes e profissionais. 
     O vento é sempre Right Cross Onshore. Aulas de kitesurf e aluguel de equipamentos de alta qualidade, 
     como serviço de transporte para as lagoas e downwinders, estão disponíveis diariamente mediante solicitação.
@@ -88,30 +137,61 @@ function oasis(){
     com uma excelente vista sobre a praia de mar azul-turquesa e uma piscina para se refrescar. 
     Existem vistas para o mar da nossa propriedade. A área fica a menos de um minuto da praia e do centro de kite local de Maracajaú.
     Temos vento o ano todo! O vento térmico geralmente chega a partir do meio-dia.
-    Fonte: <a target="_blank" href="https://www.kitesurf-oasis-maracajau.com/pt">kitesurf-oasis-maracajau.com</a> `
+    Fonte: <a target="_blank" href="https://www.kitesurf-oasis-maracajau.com/pt">kitesurf-oasis-maracajau.com</a>
+     </p> 
+      <p id="voltar"> <a href="hospedagens.html"><<<</a></p> `;
 
 }
+//================================================================================//=================================================================
 function aldeia(){
-    document.getElementById("estabSelected").src = "img/pousadas/aldeia.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+   document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/aldeia.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function bikibu(){
-    document.getElementById("estabSelected").src = "img/pousadas/bikibu.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/bikibu.png"> 
+        
+        <p id="description">
+         </p>     
 
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 }
+//================================================================================//=================================================================
 function cores(){
-    document.getElementById("estabSelected").src = "img/pousadas/cores.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/cores.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 }
+//================================================================================//=================================================================
 
 function corais(){
-    document.getElementById("estabSelected").src = "img/pousadas/corais.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/corais.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 
 }
+//================================================================================//=================================================================
 function maracajau(){
-    document.getElementById("estabSelected").src = "img/pousadas/maracajau.png";
-    document.getElementById("textRest").innerHTML= ` Descrição do estabelecimento `
+    document.getElementById("estabinfo").innerHTML= 
+        `<img id="imgrest" src="img/hospedagens/maracajau.png"> 
+        
+        <p id="description">
+         </p>     
+
+        <p id="voltar"> <a href="hospedagens.html"><<<</a></p>`;
 }
